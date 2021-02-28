@@ -16,12 +16,11 @@ class DashboardController extends Controller
     {
         // Count Up
         $positif = DB::table('trackings')
-            ->sum('trackings.positif'); 
+            ->sum('positif'); 
         $sembuh = DB::table('trackings')
-            ->sum('trackings.sembuh');
+            ->sum('sembuh');
         $meninggal = DB::table('trackings')
-            ->sum('trackings.meninggal');
-         return compact('positif','sembuh', 'meninggal');
+            ->sum('meninggal');
 
         $global = file_get_contents('https://api.kawalcorona.com/positif');
         $posglobal = json_decode($global, TRUE);
