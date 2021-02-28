@@ -21,7 +21,7 @@ class CreateKasusesTable extends Migration
                     ->on('negaras')->onDelete('cascade');
                     $table->integer('positif');
                     $table->integer('sembuh');
-                    $table->interger('meninggal');
+                    $table->integer('meninggal');
                     $table->date('tanggal');
         });
     }
