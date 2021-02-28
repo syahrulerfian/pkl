@@ -373,12 +373,10 @@
     <!-- ======= Contact Section ======= -->
     <section id="contact" class="contact">
       <!-- <div class="container" data-aos="fade-up">
-
         <div class="section-title">
           <h2>Kontak</h2>
           <h3><span>Kontak Kami</span></h3>
         </div>
-
         <div class="row" data-aos="fade-up" data-aos-delay="100">
           <div class="col-lg-6">
             <div class="info-box mb-4">
@@ -387,7 +385,6 @@
               <p>Jl. Situ Tarate</p>
             </div>
           </div>
-
           <div class="col-lg-3 col-md-6">
             <div class="info-box  mb-4">
               <i class="bx bx-envelope"></i>
@@ -395,7 +392,6 @@
               <p>info@smkassalaambandung.sch.id</p>
             </div>
           </div>
-
           <div class="col-lg-3 col-md-6">
             <div class="info-box  mb-4">
               <i class="bx bx-phone-call"></i>
@@ -403,15 +399,11 @@
               <p>022 5420-220</p>
             </div>
           </div>
-
         </div>
-
         <div class="row" data-aos="fade-up" data-aos-delay="100">
-
         <div class="col-lg-6 ">
             <iframe class="mb-4 mb-lg-0" src="https://google/maps/o1csNgqLTSCNomgi8" frameborder="0" style="border:0; width: 100%; height: 384px;" allowfullscreen></iframe>
           </div>
-
           <div class="col-lg-6">
             <form action="forms/contact.php" method="post" role="form" class="php-email-form">
               <div class="form-row">
@@ -440,9 +432,7 @@
               <div class="text-center"><button type="submit">Send Message</button></div>
             </form>
           </div>
-
         </div>
-
       </div> -->
     </section><!-- End Contact Section -->
 
