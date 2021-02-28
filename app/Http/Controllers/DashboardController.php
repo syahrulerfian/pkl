@@ -21,6 +21,7 @@ class DashboardController extends Controller
             ->sum('trackings.sembuh');
         $meninggal = DB::table('trackings')
             ->sum('trackings.meninggal');
+         return compact('positif','sembuh', 'meninggal');
 
         $global = file_get_contents('https://api.kawalcorona.com/positif');
         $posglobal = json_decode($global, TRUE);
