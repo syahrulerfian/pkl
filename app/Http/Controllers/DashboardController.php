@@ -49,4 +49,5 @@ class DashboardController extends Controller
         return view('dashboard.index',compact('positif','sembuh','meninggal','posglobal', 'tanggal','tampil','dunia'));
     }
 
+    
 }
