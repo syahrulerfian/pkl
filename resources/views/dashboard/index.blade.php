@@ -110,7 +110,15 @@
               <p>Orang</p>
             </div>
           </div>
-        
+         
+          <div class="col-lg-3 col-md-6 mt-5 mt-lg-0">
+            <div class="count-box">
+              <i class="icofont-globe"></i> <br>
+              <h5><p>Jumlah Total Positif di Dunia</p></h5>
+              <span data-toggle="counter-up"><?php echo $posglobal['value'] ?></span>
+              <p>Orang</p>
+            </div>
+          </div>
           
         </div><br><br>
         
