@@ -22,8 +22,8 @@ class DashboardController extends Controller
         $meninggal = DB::table('trackings')
             ->sum('meninggal');
 
-        $global = file_get_contents('https://api.kawalcorona.com/positif');
-        $posglobal = json_decode($global, TRUE);
+        // $global = file_get_contents('https://api.kawalcorona.com/positif');
+        // $posglobal = json_decode($global, TRUE);
 
         // Date
         $tanggal = Carbon::now()->format('D d-M-Y');
